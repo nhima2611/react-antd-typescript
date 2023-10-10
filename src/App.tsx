@@ -58,13 +58,13 @@ const App: React.FC = () => {
    * information to ConfigProvider for
    * setting language across text components
    */
-  const getAntdLocale = () => {
-    if (locale === 'en_US') {
-      return enUS;
-    } else if (locale === 'zh_CN') {
-      return zhCN;
-    }
-  };
+  // const getAntdLocale = () => {
+  //   if (locale === 'en_US') {
+  //     return enUS;
+  //   } else if (locale === 'zh_CN') {
+  //     return zhCN;
+  //   }
+  // };
 
   return (
     <ConfigProvider
