@@ -88,6 +88,7 @@ const App: React.FC = () => {
             ></Spin>
             <p>branch main</p>
             <p>branch 1</p>
+            <p>branch main 2</p>
             <RenderRouter />
           </Suspense>
         </HistoryRouter>
