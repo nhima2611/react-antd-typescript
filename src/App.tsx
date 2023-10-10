@@ -86,6 +86,7 @@ const App: React.FC = () => {
               }}
               tip={<LocaleFormatter id="gloabal.tips.loading" />}
             ></Spin>
+            <p>branch main</p>
             <RenderRouter />
           </Suspense>
         </HistoryRouter>
